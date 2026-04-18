@@ -2,7 +2,7 @@ import { useState } from "react";
 import { productos } from "../data/productos";
 import ProductCard from "./ProductCard";
 
-function ProductList({ agregarAlCarrito, busqueda }) {
+function ProductList({ agregarAlCarrito, busqueda, modo = "full" }) {
   const productosFiltrados = productos.filter((prod) =>
     prod.nombre.toLowerCase().includes(busqueda.toLowerCase())
   );
@@ -20,8 +20,10 @@ function ProductList({ agregarAlCarrito, busqueda }) {
               producto={prod}
               agregarAlCarrito={agregarAlCarrito}
               onClick={() => {
-                setProductoSeleccionado(prod);
-                setCantidad(1); // reset cantidad al abrir modal
+                if (modo === "full") {
+                  setProductoSeleccionado(prod);
+                  setCantidad(1);
+                }
               }}
             />
           ))
