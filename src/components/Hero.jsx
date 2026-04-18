@@ -3,7 +3,7 @@ function Hero() {
     <section
       className="relative h-[500px] flex items-center justify-center text-white overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: `url(${import.meta.env.BASE_URL}img/pastas.jpg)`
+        backgroundImage: `url(${import.meta.env.BASE_URL}pastas.jpg)`
       }}
     >
 
