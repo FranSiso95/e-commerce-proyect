@@ -3,7 +3,7 @@ export const productos = [
     id: 1,
     nombre: "Ravioles de carne",
     precio: 3500,
-    imagen: "/public/img1.png",
+    imagen: "/img1.png",
     etiqueta: "Artesanal",
     descripcion: "Rellenos de carne caseros, elaborados con ingredientes frescos."
   },
@@ -11,7 +11,7 @@ export const productos = [
     id: 2,
     nombre: "Ñoquis",
     precio: 3000,
-    imagen: "/public/img3.png",
+    imagen: "/img3.png",
     etiqueta: "Casero",
     descripcion: "Rellenos de carne caseros, elaborados con ingredientes frescos."
   },
@@ -19,7 +19,7 @@ export const productos = [
     id: 3,
     nombre: "Sorrentinos",
     precio: 4000,
-    imagen: "/public/sorrentinos-1.png",
+    imagen: "/sorrentinos-1.png",
     etiqueta: "Artesanal",
     descripcion: "Rellenos de carne caseros, elaborados con ingredientes frescos."
   },
@@ -34,7 +34,7 @@ export const productos = [
     id: 5,
     nombre: "Milanesas de soja",
     precio: 2800,
-    imagen: "/public/mila-soja-1.png",
+    imagen: "/mila-soja-1.png",
     etiqueta: "Casero",
     descripcion: "Rellenos de carne caseros, elaborados con ingredientes frescos."
   },
