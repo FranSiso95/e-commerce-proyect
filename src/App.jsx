@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 import Navbar from "./components/Navbar";
@@ -53,7 +53,7 @@ const agregarAlCarrito = (producto, cantidad = 1) => {
 
   return (
   <div className="bg-gray-900 min-h-screen text-white animate-fadeIn">
-    <BrowserRouter>
+    <HashRouter>
       <Navbar 
         busqueda={busqueda} 
         setBusqueda={setBusqueda} 
@@ -92,7 +92,7 @@ const agregarAlCarrito = (producto, cantidad = 1) => {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
     <a
       href="https://wa.me/5493516332819"
