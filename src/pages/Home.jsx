@@ -17,7 +17,7 @@ function Home() {
             <ProductCard
               key={prod.id}
               producto={prod}
-              modo="demo"
+              modo="preview"
             />
           ))}
         </div>
