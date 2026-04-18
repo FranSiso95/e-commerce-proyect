@@ -5,6 +5,7 @@ function Productos({ agregarAlCarrito, busqueda }) {
     <ProductList 
       agregarAlCarrito={agregarAlCarrito} 
       busqueda={busqueda}
+      modo="full"
     />
   );
 }
